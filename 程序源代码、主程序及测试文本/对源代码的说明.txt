@@ -1,0 +1,10 @@
+
+本程序采用C++语言编写。程序中用到了boost库中的dynamic_bitset类，需要链接这个外部库后才能编译。
+
+
+若您的电脑上已经编译了boost库，将本目录中CMakeLists.txt的
+
+  include_directories(D:/Document/Code/Libraries/boost_1_83_0)
+  link_directories(D:/Document/Code/Libraries/boost_1_83_0/stage/lib)
+
+这两行代码中的文件目录修改为您的boost库目录，即可编译源代码。
